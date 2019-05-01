@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>Prueba1</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="js/animaciones.js"></script>
+  </head>
+  
+  <body>
+    <div class="banner">
+      <h1 class="banner-titulo">Reto de las gemas</h1>
+      <h2 class="banner-texto">Diamante Arquiliano</h2>
+    </div>
+
+    <div class="contenido" id="contenido">
+      <h3>Descripción del reto.</h3>
+      <p class="texto">
+        Crear un página con un conjunto de 3 fotos de políticos del senado.<br>
+        Agrega un botón que:<br>
+        Anime las fotos moviéndose en varios sentidos así: El primero de arriba a abajo, el segundo de izquierda a derecha y el tercero en diagonal. El movimiento debe ser continuo e infinito (cuando llegue a un punto se devuelve en el sentido contario).
+      </p>
+
+      <p><button type="button" id="btnIniciar" onclick="iniciar()" >Iniciar</button></p>
+      <article class="columna" id="colVertical">
+      <p>Imagen 1</p>
+      <div class="vertical" id="vertical">
+         <img src="img/imgUribe.jpg" alt="Imagen de Alvaro Uribe" class="img-ani">
+      </div></article>
+
+      <article class="columna" id="ColHorizontal">
+      <p>Imagen 2</p>
+      <div class="horizontal" id="horizontal">
+         <img src="img/imgPetro.jpg" alt="Imagen de Gustavo Petro" class="img-ani">
+      </div></article>
+
+      <article class="columna" id="colDiagonal">
+      <p>Imagen 3</p>
+      <div class="diagonal" id="diagonal">
+         <img src="img/imgMacias.jpg" alt="Imagen de Ernesto Macias" class="img-ani">
+      </div></article>
+    </div>
+  </body>
+</html>
+
